@@ -1,0 +1,24 @@
+CRITICAL - 2023-06-04 06:34:51 --> Class "App\Models\ProjectModel" not found
+in APPPATH\Controllers\Pages.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:37:39 --> Class "App\Models\ProjectModel" not found
+in APPPATH\Controllers\Pages.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:48:30 --> Class "App\Models\ProjectModel" not found
+in APPPATH\Controllers\Pages.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:49:41 --> Class "App\Models\ProjectModel" not found
+in APPPATH\Controllers\Pages.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
