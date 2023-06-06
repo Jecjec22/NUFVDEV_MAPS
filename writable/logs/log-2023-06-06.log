@@ -1,0 +1,54 @@
+INFO - 2023-06-06 05:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 05:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-06 05:44:29 --> Undefined array key "ProjectID"
+in APPPATH\Views\schedule.php on line 58.
+ 1 APPPATH\Views\schedule.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProjectID"', 'C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(9): view('schedule')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Schedule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 05:45:00 --> Undefined array key "ProjectID"
+in APPPATH\Views\schedule.php on line 55.
+ 1 APPPATH\Views\schedule.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProjectID"', 'C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(9): view('schedule')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Schedule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 05:45:15 --> Undefined array key "ProjectID"
+in APPPATH\Views\schedule.php on line 50.
+ 1 APPPATH\Views\schedule.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProjectID"', 'C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(9): view('schedule')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Schedule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 05:52:08 --> Undefined array key "ProjectID"
+in APPPATH\Views\schedule.php on line 55.
+ 1 APPPATH\Views\schedule.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProjectID"', 'C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Maps\\app\\Views\\schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(9): view('schedule')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Schedule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-06 05:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

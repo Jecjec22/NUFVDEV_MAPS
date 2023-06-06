@@ -41,18 +41,21 @@
         }
 
         // Prepare a SELECT statement
-        $sql = "SELECT * FROM projectsdb";
+        $sql = "SELECT * FROM projectsdb2";
         $result = $conn->query($sql);
 
         // Loop through the data and output each row as a project box
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo '<div class="box" onclick="expandDetails(' . $row['ProjectID'] . ')">';
-                echo '<h2>' . $row['ProjectName'] . '</h2>';
-                echo '<p>Client: ' . $row['ClientName'] . '</p>';
-                echo '<p>Services needed: ' . $row['ServicesNeeded'] . '</p>';
+                echo '<div class="box" onclick="expandDetails(' . $row['Project_ID'] . ')">';
+                echo '<h2>' . $row['Project_Name'] . '</h2>';
+                echo '<p> Project Description: ' . $row['Project_Description'] . '</p>';
+                echo '<p>Client: ' . $row['Client_Name'] . '</p>';
+                echo '<p>Services needed: ' . $row['Services_Needed'] . '</p>';
+                echo '<p> Project Status: '. $row['Project_Status'] . '</p>';
+                echo '<p>Team Size: ' . $row['TeamSize'] . '</p>';
                 echo '<p>Due date: ' . $row['DueDate'] . '</p>';
-                echo '<button class="assign-button" onclick="assignProject(event, ' . $row['ProjectID'] . ')">Assign</button>';
+                echo '<button class="assign-button" onclick="assignProject(event, ' . $row['Project_ID'] . ')">Assign</button>';
                 echo '</div>';
             }
         } else {

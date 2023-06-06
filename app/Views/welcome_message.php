@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    <h1>Manpower Allocation and Planning System</h1>
+    <h1>Manpower Allocation and Planning Service</h1>
     <a href="<?= base_url('pages') ?>" class="button">Projects</a>
     <a href="<?= base_url('schedule') ?>" class="button">Schedule</a>
     <a href="<?= base_url('account') ?>" class="button">Account</a>

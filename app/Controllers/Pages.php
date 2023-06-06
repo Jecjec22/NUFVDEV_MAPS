@@ -53,25 +53,31 @@ class Pages extends BaseController
             $id = $this->request->getPost('id');
             $projectName = $this->request->getPost('projectName');
             $clientName = $this->request->getPost('clientName');
+            $projectDescription = $this->request->getPost('projectDescription');
             $servicesNeeded = $this->request->getPost('servicesNeeded');
+            $projectStatus = $this->request->getPost('projectStatus');
+            $teamSize = $this->request->getPost('teamSize');
             $dueDate = $this->request->getPost('dueDate');
-
+    
             // Load the database model
             $projectModel = new ProjectModel();
-
+    
             // Get the existing project by ID
             $existingProject = $projectModel->find($id);
-
+    
             // Check if the project exists
             if ($existingProject) {
                 // Set the updated project data
                 $updatedProject = [
-                    'ProjectName' => $projectName,
-                    'ClientName' => $clientName,
-                    'ServicesNeeded' => $servicesNeeded,
+                    'Project_Name' => $projectName,
+                    'Client_Name' => $clientName,
+                    'Project_Description' => $projectDescription,
+                    'Services_Needed' => $servicesNeeded,
+                    'Project_Status' => $projectStatus,
+                    'TeamSize' => $teamSize,
                     'DueDate' => $dueDate,
                 ];
-
+    
                 // Update the project
                 if ($projectModel->update($id, $updatedProject)) {
                     return redirect()->to(site_url('pages'))->with('success', 'Project updated successfully');
@@ -83,13 +89,17 @@ class Pages extends BaseController
             }
         }
     }
+    
 
     public function add()
     {
         if ($this->request->getMethod() == 'post') {
             $projectName = $this->request->getPost('projectName');
             $clientName = $this->request->getPost('clientName');
+            $projectDescription = $this->request->getPost('projectDescription');
             $servicesNeeded = $this->request->getPost('servicesNeeded');
+            $projectStatus = $this->request->getPost('projectStatus');
+            $teamSize = $this->request->getPost('teamSize');
             $dueDate = $this->request->getPost('dueDate');
 
             // Load the database model
@@ -97,9 +107,12 @@ class Pages extends BaseController
 
             // Set the project data
             $newProject = [
-                'ProjectName' => $projectName,
-                'ClientName' => $clientName,
-                'ServicesNeeded' => $servicesNeeded,
+                'Project_Name' => $projectName,
+                'Client_Name' => $clientName,
+                'Project_Description' => $projectDescription,
+                'Services_Needed' => $servicesNeeded,
+                'Project_Status' => $projectStatus,
+                'TeamSize' => $teamSize,
                 'DueDate' => $dueDate,
             ];
 
