@@ -9,7 +9,7 @@ class Pages extends BaseController
     public function index()
     {
         $projectModel = new ProjectModel();
-        $data['projects'] = $projectModel->findAll();
+        $data['projects1'] = $projectModel->findAll();
 
         return view('pages', $data);
     }
